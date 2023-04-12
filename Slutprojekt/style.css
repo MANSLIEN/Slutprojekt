@@ -1,0 +1,11 @@
+body{
+	background-image: url(img/bakgrund.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+background-image{
+	filter: blur(3px)!important;
+	filter: brightness(5);
+}
