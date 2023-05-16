@@ -1,0 +1,27 @@
+.bg{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	aspect-ratio: 100/29;
+	padding-left: 2rem ;
+	padding-right: 2rem ;
+	padding-bottom: 2rem ;
+	padding-top: 2rem ;
+	margin-top: 3rem;
+	margin bottom: 2rem;
+	font-weight: 400;
+	font-size: 1.1rem;
+}
+.hus{
+	width: 500px;
+}
+.introimagesize{
+	width:125px;
+}
+@media screen and (max-width: 760px){
+	.hus{
+		width: 250px;
+	}
+	.introimagesize{
+		width: 69px;
+	}
+}
