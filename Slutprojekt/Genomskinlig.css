@@ -1,4 +1,4 @@
-.bg{
+.image{
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
 	aspect-ratio: 100/29;
@@ -14,14 +14,21 @@
 .hus{
 	width: 500px;
 }
-.introimagesize{
+.imgsize{
 	width:125px;
 }
 @media screen and (max-width: 760px){
 	.hus{
 		width: 250px;
 	}
-	.introimagesize{
+	.imgsize{
 		width: 69px;
 	}
+}
+iframe{
+	width: 100%;
+	aspect-ratio: 100/50;
+}
+.vid{
+	padding-top: 2rem;
 }
