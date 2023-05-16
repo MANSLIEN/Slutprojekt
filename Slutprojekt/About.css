@@ -1,15 +1,58 @@
 .bg
 {
 	background-color: white;
-	padding-left: 2rem !important;
-	padding-right: 2rem !important;
-	padding-bottom: 2rem !important;
-	padding-top: 2rem !important;
+	padding-left: 2rem ;
+	padding-right: 2rem ;
+	padding-bottom: 2rem ;
+	padding-top: 2rem ;
 	margin-top: 3rem;
 	margin bottom: 3rem;
-}
-.main
-{
-	display: block;
+	font-weight: 400;
+	font-size: 1.1rem;
 }
 
+.main
+{
+	padding-top: 5rem;
+	padding: 1em;
+
+}
+
+h3
+{
+	font-size: 1.3rem;
+	font-weight: bold;
+	line-height: 1rem;
+
+}
+h4
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.4rem;
+	padding-top: 1.2rem;
+}
+
+.Ch5
+{
+	padding-top: 1em;
+}
+/*###############
+  # Google maps #
+  ###############*/
+  .google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+/*######################
+  # End of Google maps #
+  ######################*/
+ {}

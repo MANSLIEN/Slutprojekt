@@ -1,18 +1,23 @@
-body{
-	background-image: url(img/bakgrund.png);
+/*##############
+  # Background #
+  ##############*/
+  body
+{
+	background-image: url(img/background.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-
+	font-family: Montserrat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 background-image{
 	background-size: cover;	
+/*#####################
+  # End of Background #
+  #####################*/
 }
 
-div.Logo{
-	width: 50px;
-	height: 50px;
-	background-image: url(img/Logo.png)!important;
-	background-size: cover;
-}
 

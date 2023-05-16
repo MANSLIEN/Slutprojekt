@@ -1,56 +1,216 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- Länkar in google fonten Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+  <!--Linking between files-->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="Welcome.html">
 	<link rel="stylesheet" type="text/css" href="About.html">
 	<link rel="stylesheet" type="text/css" href="TheHouse.html">
 	<link rel="stylesheet" type="text/css" href="Apply.html">
-
+	<link rel="stylesheet" type="text/css" href="About.css">
+	<!--Linking between files End-->
 	<title>Curriculum</title>
 
- <!--
+ 	 <!--
   ##############
   #   Header   #
   ##############
 -->
-</head>
-<body class="Logo">
-	<header class="header">
-		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-			<div class="container">
-				<div class="Logo"></div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="Welcome.html">Welcome</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="About.html">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="Curriculum.html">Curriculum</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="TheHouse.html">The House</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="Apply.html">Apply</a>
-						</li>
-					</ul>
-				</div>
+<header class="header">
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		<div class="container">
+			<img src="img/logo.png" height="50px">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="Welcome.html">Welcome</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="About.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Curriculum.html">Curriculum</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Findus.html">Find-us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Apply.html">Apply</a>
+					</li>
+				</ul>
 			</div>
-		</nav>
-	</header>
-   <!--
+		</div>
+	</nav>
+    <!--
+    	###############
+    	# JAVA NAVBAR #
+    	###############
+    -->
+    <!--Funktion-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--Hamburg meny-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!--
+  	###############
+  	# JAVA NAVBAR #
+  	###############
+  -->
+</header>
+    <!--
   #####################
   #   End of header   #
   #####################
 -->
+
+<!--
+  #####################
+  #  	Container	  #
+  #####################
+-->
+<container class="containermain">
+	<div class="container text-left main">
+
+		<div class="col bg">
+
+			<h3>Programming and production</h3>	
+
+			<p1>Our program is divided into 5 sections, intended to be covered in 1 year of full-time study.</p1>
+			<h4>1. Preparation</h4>
+
+			<p1>The Indie Quest requires no previous experience in programming. Through carefully designed missions, you will conquer the basics of programming by coding individual aspects of games. You will learn how computers work and touch on other aspects of computer science, such as computational thinking and algorithm design, so that you will have the foundation to tackle any programming problems thrown your way.</p1>
+
+			<h5 class="Ch5">Skills covered:</h5>
+
+			<li ::marker> How computers work</li>
+			<li ::marker> Procedural programming</li>
+			<li ::marker> Algorithm design basics</li>
+			<li ::marker> Data types and structures</li>
+			<li ::marker> Text manipulation</li>
+			<li ::marker> User interaction</li>
+
+			<h4>2. Text adventure</h4>
+
+			<p1>It's time to design your first game. You will choose your own theme and write a text adventure with various locations, characters, and objects to manipulate. It's up to you what the goal of the game is. The project will be bigger than previous missions and require a more organized approach.</p1>
+
+			<h5 class="Ch5">Skills covered:</h5>
+
+			<li ::marker> Game design documentation</li>
+			<li ::marker> Code organization </li>
+			<li ::marker>  Functional programming basics </li>
+			<li ::marker> Project management </li>
+
+			<h4>3. Arcade game</h4>
+
+			<p1>Your next project is a simple, top-down, one-screen arcade game, such as a space shooter. You will take your coding knowledge and use it to learn game programming with the Unity game engine.</p1>
+
+			<h5 class="Ch5">Skills covered:</h5>
+
+			<li ::marker> Game architecture</li>
+			<li ::marker>Scene management</li>
+			<li ::marker> Graphics engine basics</li>
+			<li ::marker>Physics engine basics</li>
+			<li ::marker> Art assets</li>
+			<li ::marker>User interface</li>
+			<li ::marker>Vector math</li>
+			<li ::marker>Basic artificial intelligence</li>
+			<li ::marker>Agile development</li>
+
+			<h4>3.5 Game Jam</h4>
+
+			<p1>Before we move on to more learning, you will participate in a 72-hours game jam that will bring everyone at Spellkolektivet together to create games based around a shared theme. You could work alone or take the opportunity to team up, either with other students or join the rest of the developers from the house.</p1>
+
+			<h4>3. Platformer</h4>
+
+			With basic game architecture knowledge under your belt, it's time to create a complex game that will use all the most common components you'll need in any game project. This will be the last guided project before starting your final game.
+
+			<h5 class=Ch5>Skills covered:</h5>
+
+			<li ::marker>Object-oriented programming</li>
+			<li ::marker> Memory management</li>
+			<li ::marker>State-based artificial intelligence</li>
+			<li ::marker>Pathfinding</li>
+			<li ::marker>Animation</li>
+			<li ::marker>Game object organization</li>
+			<li ::marker>Levels and menus</li>
+			<li ::marker>Saving and loading</li>
+			<li ::marker>Audio</li>
+
+			<h4>5. Final project</h4>
+
+			<p1>The game you will graduate the program with will be completely up to you. It's time to put all you've learned into a polished product, optionally learning some advanced topics along the way. You can go at it alone, or join forces with another classmate or two.</p1>
+
+			<h5 class="Ch5">Optional skills to explore:</h5>
+
+			<li ::marker> 3D graphics and physics</li>
+			<li ::marker>Procedural level generation</li>
+			<li ::marker>Complex control systems and UI</li>
+			<li ::marker> Goal-based artificial intelligence</li>
+			<li ::marker> Multiplayer</li>
+			<li ::marker> Marketing</li>
+			<li ::marker> Publishing</li>
+
+			<h4>Tools and languages</h4>
+
+			<p1>The concepts you will learn in the first two sections of the programming curriculum will be highly universal and applicable to any kind of programming tasks, in and outside video games. Sections 3–5 will be specific to game development, but giving you a high-level understanding of how games work that can be applied to any game type and approach.
+
+				To make teaching practical however, we had to choose a specific programming language and game engine around which to organize the learning materials. We chose Unity since it is the most popular engine in indie game development and one you are most likely to encounter when trying to collaborate with other indie developers. Based on this decision, C# was the logical choice for the programming language.
+
+			While some of the concepts common in the gaming industry will not be covered due to this choice (for example, pointers and manual memory management), you will receive enough low-level knowledge about how computers work that you will not have problems moving to C or C++ if you choose to afterwards. Learning a specific programming language is not the hard part and a skilled programmer with understanding of general concepts has no problem switching and learning a new programming language. Similarly, moving from Unity to another engine will not be hard if you decide to do so.</p1>
+		</div>
+		<div class="col bg">
+
+			<h3>Art</h3>
+
+			<p1>The art curriculum runs in parallel with programming and production and serves to create all the necessary art assets for the projects. You are required to learn the basics of raster and vector digital art production (2D or 3D), but beyond that, it's completely up to you what kind of art styles, mediums, and themes you want to explore. For each of the 4 main projects you will choose a goal and follow a personalized study plan that will lead you to creating all of the art.</p1>
+
+			<h5 class="Ch5">Possible areas of study:</h5>
+
+			<li ::marker> Art fundamentals</li>
+			<li ::marker>Light and color</li>
+			<li ::marker>  Graphical projection</li>
+			<li ::marker>  Composition</li>
+			<li ::marker>  Animation</li>
+			<h5 class="Ch5"> Design process:</h5>
+			<li ::marker>  Art direction</li>
+			<li ::marker> Concept art</li>
+			<h5 class="Ch5">Art mediums:</h5>
+			<li ::marker>   Pixel art</li>
+			<li ::marker> Voxel art</li>
+			<li ::marker> Vector art</li>
+			<li ::marker> 3D modeling</li>
+			<li ::marker> Traditional drawing</li>
+			<li ::marker> Digital painting</li>
+			<li ::marker> Shader programming and visual effects</li>
+			<h5 class="Ch5">Subjects:</h5>
+			<li ::marker> Landscapes</li>
+			<li ::marker>  Vegetation</li>
+			<li ::marker> Architecture</li>
+			<li ::marker> Interiors</li>
+			<li ::marker>  Items</li>
+			<li ::marker> Vehicles</li>
+			<li ::marker>  Characters</li>
+			<li ::marker> Animals</li>
+
+			<h4>Tools and software</h4>
+
+			<p1>Similarly to how you will be free to choose your own art style, you will be able to choose the tools you want to make your art with, both digital and traditional. You will be responsible for obtaining your own software and hardware, but we made sure all the assignments can be completed with free software, a mouse, some paper, and a pencil. Any extra hardware (graphic tablets and displays, pens, art markers …) or paid software is optional and only required if you decide to pursue certain art styles. The school will have some art materials available, but if you have your own art supplies, definitely bring them along.</p1>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha383-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</container>
+	<!--
+    #############################
+    #  	  End of Container	    #
+    #############################
+-->
 </body>
+</html>
