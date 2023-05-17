@@ -1,3 +1,6 @@
+/*#############################
+	# Majoriteten av containers #
+	#############################*/
 .bg
 {
 	background-color: white;
@@ -10,13 +13,21 @@
 	font-weight: 400;
 	font-size: 1.1rem;
 }
+/*#################################
+	# Majoriteten av containers End #
+	#################################*/
 
+/*########
+	# Main #
+	########*/
 .main
 {
 	padding-top: 5rem;
 	padding: 1em;
-
 }
+/*############ 
+  # Main End #
+  ############*/
 
 h3
 {
@@ -32,7 +43,36 @@ h4
 	line-height: 1.4rem;
 	padding-top: 1.2rem;
 }
+h1
+{
+	color: white;
+	font-weight: bold;
+	padding-left: 2rem ;
+	padding-right: 2rem ;
+	padding-bottom: 2rem ;
+	padding-top: 2rem ;
+	margin-top: 3rem;
+	margin bottom: 3rem;
+	font-weight: 400;
+}
 
+/*#################
+  # About carusel #
+  #################*/
+.light
+{
+	color: white;
+	padding-left: 2rem ;
+	padding-right: 2rem ;
+	padding-bottom: 2rem ;
+	margin bottom: 3rem;
+	font-weight: 400;
+	font-size: 1.49rem;
+}
+/*##################### 
+  # About carusel End #
+  #####################*/
+}
 .Ch5
 {
 	padding-top: 1em;
@@ -41,26 +81,72 @@ h4
   # Google maps #
   ###############*/
   .google-map {
-     padding-bottom: 50%;
-     position: relative;
-}
+  	padding-bottom: 50%;
+  	position: relative;
+  }
 
-.google-map iframe {
-     height: 100%;
-     width: 100%;
-     left: 0;
-     top: 0;
-     position: absolute;
-}
+  .google-map iframe {
+  	height: 100%;
+  	width: 100%;
+  	left: 0;
+  	top: 0;
+  	position: absolute;
+  }
 /*######################
   # End of Google maps #
   ######################*/
-/*About*/
-.map
-{
-	object-fit: ;
-}
-/*About End*/
-/*Finess*/
+/*#########
+	# About #
+	#########*/
+	.map
+	{
+		object-fit: ;
+	}
+/*#############
+	# About End #
+	#############*/
 
-/*Finess End*/
+/*##########
+  # Finess #
+  ##########*/
+  .Finess{
+  	color: inherit;
+  	text-decoration: none;
+  }
+
+  .Finess{
+  	background:
+  	linear-gradient(
+  		to right,
+  		rgba(100, 200, 200, 1),
+  		rgba(100, 200, 200, 1)
+  	),
+  	linear-gradient(
+  		to right,
+  		rgba(255, 0, 0, 1),
+  		rgba(255, 0, 180, 1),
+  		rgba(0, 100, 200, 1)
+  	);
+  	background-size: 100% 3px, 0 3px;
+  	background-position: 100% 100%, 0 100%;
+  	background-repeat: no-repeat;
+  	transition: background-size 400ms;
+  }
+
+  .Finess:hover {
+  	background-size: 0 3px, 100% 3px;
+  }
+/*##############
+  # Finess End #
+  ##############*/
+
+/*#############
+  # CenterNAV #
+  #############*/
+  .header{
+  	display: grid;
+  	place-items: center;
+  }
+/* ################
+   #CenterNAV End #
+   ################ */

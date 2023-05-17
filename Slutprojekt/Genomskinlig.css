@@ -1,3 +1,6 @@
+/*############
+  # Blackbox #
+  ############*/
 .image{
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
@@ -17,6 +20,13 @@
 .imgsize{
 	width:125px;
 }
+/*################
+  # Blackbox End #
+  ################*/
+
+/*###################
+  # mobile Blackbox #
+  ###################*/
 @media screen and (max-width: 760px){
 	.hus{
 		width: 250px;
@@ -25,10 +35,38 @@
 		width: 69px;
 	}
 }
+/*#######################
+  # Mobile Blackbox End #
+  #######################*/
+
+/* ##############
+   # Iframe(yt) #
+   ##############*/
 iframe{
 	width: 100%;
 	aspect-ratio: 100/50;
 }
+/*##############
+  # Iframe End #
+  ##############*/
+
+/*###########
+  # Vid(yt) #
+  ###########*/
 .vid{
 	padding-top: 2rem;
+	/*###########
+	  # Vid End #
+	  ###########*/
 }
+/*##########
+  # Header #
+  ##########*/
+.header
+{
+	display: grid;
+	place-items: center;
+}
+/*##############
+  # Header End #
+  ##############*/
