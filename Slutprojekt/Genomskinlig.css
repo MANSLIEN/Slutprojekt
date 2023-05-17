@@ -13,6 +13,7 @@
 	margin bottom: 2rem;
 	font-weight: 400;
 	font-size: 1.1rem;
+	color: white;
 }
 .hus{
 	width: 500px;
@@ -59,14 +60,25 @@ iframe{
 	  # Vid End #
 	  ###########*/
 }
-/*##########
-  # Header #
-  ##########*/
+/*##############
+  # Center Nav #
+  ##############*/
 .header
 {
 	display: grid;
 	place-items: center;
 }
-/*##############
-  # Header End #
-  ##############*/
+/*##################
+  # Center Nav End #
+  ##################*/
+
+/*#############
+  # Logotyper #
+  #############*/
+  .mail
+  {
+  	width: 1.8rem;
+  }
+/*#################
+  # Logotyper End #
+  #################*/
